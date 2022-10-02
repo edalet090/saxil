@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.main{
+    width: 85%;
+    margin: auto;
+    font-family: 'Roboto' sans-serif;
+}
+.medium {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.para{
+    width: 70%;
+    font-size: 24px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.bottom{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    font-weight: 400;
+}
+.ellipse{
+    position: relative;
+    height: 350px;
+}
+h3{
+    font-size: 18px;
+}
+.big{
+    width: 100%;
+}
+
+.ellipsetwo{
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    z-index: -1;
+
+}
+.ellipse3{
+    position: relative;
+    height: 230px;
+}
+.ellipsethree{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    z-index: -1;
+    left: 10px;
+}
+@media screen and (min-width:830px) and (max-width:1400px){
+    h1{
+        font-family: 32px;
+    }
+    .para{
+        font-size: 14px;
+    }
+    .big{
+        height: 180px;
+    }
+    .ellipse{
+        height: 210px;
+    }
+    .bottom{
+        justify-content: flex-start;
+        gap: 10px;
+
+    }
+    .ellipse3{
+        display: none;
+    }
+    .bottom-p h3{
+        font-size: 15px;
+    }
+    .bottom-p p{
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:375px) and (max-width:829px){
+    .main{
+        width: 75%;
+    }
+    h1{
+        font-family: 26px;
+    }
+    .medium{
+        display: block;
+    }
+    .para{
+        font-size: 18px;
+        width: 100%;
+    }
+    .big{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .ellipse{
+        width: 30%;
+        margin: auto;
+        height: 176px;
+    }
+    .bottom{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+
+    }
+    .ellipse3{
+        display: none;
+    }
+    .bottom-p{
+        flex-basis: 35%;
+    }
+    .bottom-p h3{
+        font-size: 12px;
+    }
+    .bottom-p p{
+        font-size: 10px;
+    }
+}
